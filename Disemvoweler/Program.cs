@@ -58,7 +58,15 @@ namespace Disemvoweler
             sentence2 = sentence2.Replace("w", "");
             sentence2 = sentence2.Replace("x", "");
             sentence2 = sentence2.Replace("y", "");
-            sentence2 = sentence2.Replace("z", "");
+            sentence2 = sentence2.Replace("z", ""); 
+            sentence2 = sentence2.Replace("!", "");
+            sentence2 = sentence2.Replace("?", "");
+            sentence2 = sentence2.Replace(",", "");
+            sentence2 = sentence2.Replace(" ", "");
+            sentence2 = sentence2.Replace(".", "");
+            sentence2 = sentence2.Replace("'", "");
+            Console.WriteLine("Vowels: " + sentence2);
+
         }
     }
 }
