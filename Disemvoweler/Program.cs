@@ -23,7 +23,19 @@ namespace Disemvoweler
             //keeps console open
             Console.ReadKey();
         }
-       
-
+        static void Disemvoweler(string sentence)
+        {
+            //vowels
+            string correctString = sentence.Replace(" ", "");
+            correctString = correctString.Replace("a", "");
+            correctString = correctString.Replace("e", "");
+            correctString = correctString.Replace("i", "");
+            correctString = correctString.Replace("o", "");
+            correctString = correctString.Replace("u", "");
+            Console.WriteLine("Original: " + sentence);
+            Console.WriteLine("Disemvoweled: " + correctString);
+        
+        
+        }
     }
 }
