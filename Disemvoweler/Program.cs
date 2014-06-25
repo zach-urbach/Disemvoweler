@@ -34,8 +34,31 @@ namespace Disemvoweler
             correctString = correctString.Replace("u", "");
             Console.WriteLine("Original: " + sentence);
             Console.WriteLine("Disemvoweled: " + correctString);
-        
-        
+
+            //constants
+            string sentence2 = sentence;
+            sentence2 = sentence2.ToLower();
+            sentence2 = sentence2.Replace("b", "");
+            sentence2 = sentence2.Replace("c", "");
+            sentence2 = sentence2.Replace("k", "");
+            sentence2 = sentence2.Replace("d", "");
+            sentence2 = sentence2.Replace("j", "");
+            sentence2 = sentence2.Replace("f", "");
+            sentence2 = sentence2.Replace("g", "");
+            sentence2 = sentence2.Replace("h", "");
+            sentence2 = sentence2.Replace("l", "");
+            sentence2 = sentence2.Replace("m", "");
+            sentence2 = sentence2.Replace("n", "");
+            sentence2 = sentence2.Replace("p", "");
+            sentence2 = sentence2.Replace("q", "");
+            sentence2 = sentence2.Replace("r", "");
+            sentence2 = sentence2.Replace("s", "");
+            sentence2 = sentence2.Replace("t", "");
+            sentence2 = sentence2.Replace("v", "");
+            sentence2 = sentence2.Replace("w", "");
+            sentence2 = sentence2.Replace("x", "");
+            sentence2 = sentence2.Replace("y", "");
+            sentence2 = sentence2.Replace("z", "");
         }
     }
 }
